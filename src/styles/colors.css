@@ -1,0 +1,21 @@
+/* Brand color variables — generated from docs/brand-kit.md */
+:root {
+  /* Primary colors */
+  --color-lpu-orange: #F68634;
+  --color-peppercorn: #2D2D2D;
+  --color-feta: #FFFFFF;
+  --color-tyrolean: #F4F4F2;
+
+  /* Convenience aliases */
+  --brand-accent: var(--color-lpu-orange);
+  --brand-text: var(--color-peppercorn);
+  --brand-background: var(--color-feta);
+}
+
+/* Example utility classes (optional) */
+.brand-accent {
+  color: var(--brand-accent);
+}
+.bg-brand-background {
+  background-color: var(--brand-background);
+}
